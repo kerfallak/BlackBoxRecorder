@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Recording>
+  <Name>ConvertMilesToKm_a</Name>
+  <Method>ConvertMilesToKm</Method>
+  <IsStatic>false</IsStatic>
+  <Type><![CDATA[KKDemo.Math]]></Type>
+  <FullyQualifiedType><![CDATA[KKDemo.Math, KKDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]></FullyQualifiedType>
+  <InputParameters>
+    <Parameter>
+      <Name>a</Name>
+      <Type><![CDATA[System.Int32]]></Type>
+      <FullyQualifiedType><![CDATA[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]></FullyQualifiedType>
+      <Value><![CDATA[<int>10</int>]]></Value>
+    </Parameter>
+  </InputParameters>
+  <OutputParameters>
+    <Parameter>
+      <Name>a</Name>
+      <Type><![CDATA[System.Int32]]></Type>
+      <FullyQualifiedType><![CDATA[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]></FullyQualifiedType>
+      <Value><![CDATA[<int>10</int>]]></Value>
+    </Parameter>
+  </OutputParameters>
+  <Return>
+    <Type><![CDATA[System.Decimal]]></Type>
+    <FullyQualifiedType><![CDATA[System.Decimal, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]></FullyQualifiedType>
+    <Value><![CDATA[<decimal>16.0</decimal>]]></Value>
+    <Dependencies>
+      <Dependency>
+        <Type><![CDATA[KKDemo.Database]]></Type>
+        <FullyQualifiedType><![CDATA[KKDemo.Database, KKDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]></FullyQualifiedType>
+        <Method>
+          <Name>GetMilesConverter</Name>
+          <IsStatic>false</IsStatic>
+          <Parameters />
+          <ReturnValues>
+            <ReturnValue>
+              <FullyQualifiedType><![CDATA[System.Decimal, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]></FullyQualifiedType>
+              <Value><![CDATA[<decimal>1.6</decimal>]]></Value>
+            </ReturnValue>
+          </ReturnValues>
+        </Method>
+      </Dependency>
+    </Dependencies>
+  </Return>
+</Recording>

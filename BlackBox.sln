@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackBox", "BlackBox\BlackBox.csproj", "{11FA65CD-EBC2-41D2-8B12-B2CA9EC2E846}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackBox.Tests", "BlackBox.Tests\BlackBox.Tests.csproj", "{76B393CF-FB8E-4B6C-A9D6-BB28C9247C62}"
@@ -8,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackBox.Demo.App", "BlackBox.Demo.App\BlackBox.Demo.App.csproj", "{41C4CF7B-1518-4423-91DC-2850CD7507B5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackBox.Demo.Tests", "BlackBox.Demo.Tests\BlackBox.Demo.Tests.csproj", "{54D37F67-65AA-495C-B4F5-A6C52A2A568B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KKDemo", "KKDemo\KKDemo.csproj", "{5333A72C-5B97-4F04-94F4-8D3FD82B163C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +63,18 @@ Global
 		{54D37F67-65AA-495C-B4F5-A6C52A2A568B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{54D37F67-65AA-495C-B4F5-A6C52A2A568B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{54D37F67-65AA-495C-B4F5-A6C52A2A568B}.Release|x86.ActiveCfg = Release|Any CPU
+		{5333A72C-5B97-4F04-94F4-8D3FD82B163C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5333A72C-5B97-4F04-94F4-8D3FD82B163C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5333A72C-5B97-4F04-94F4-8D3FD82B163C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5333A72C-5B97-4F04-94F4-8D3FD82B163C}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5333A72C-5B97-4F04-94F4-8D3FD82B163C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5333A72C-5B97-4F04-94F4-8D3FD82B163C}.Debug|x86.Build.0 = Debug|Any CPU
+		{5333A72C-5B97-4F04-94F4-8D3FD82B163C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5333A72C-5B97-4F04-94F4-8D3FD82B163C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5333A72C-5B97-4F04-94F4-8D3FD82B163C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5333A72C-5B97-4F04-94F4-8D3FD82B163C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{5333A72C-5B97-4F04-94F4-8D3FD82B163C}.Release|x86.ActiveCfg = Release|Any CPU
+		{5333A72C-5B97-4F04-94F4-8D3FD82B163C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
